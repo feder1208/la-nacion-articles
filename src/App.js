@@ -1,23 +1,41 @@
-import logo from "./logo.svg";
 import "./App.css";
+import React, { useState, useEffect } from "react";
+import { Loading } from "./components/Loading";
+import { Articles } from "./components/Articles";
+// import {fetchData} from "./services/fetchData"
+
+const url = "https://api-test-ln.herokuapp.com/articles";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>la nación articles</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  const [articles, setArticles] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  const fetchData = async () => {
+    setLoading(true);
+    const response = await fetch(url);
+    const { articles } = await response.json();
+    setArticles(articles);
+    console.log(articles, "en app.js");
+    // console.log(articles.articles[0].headlines.basic);
+    // const mapTitles = articles.articles.map((article) => {
+    //   return article.headlines.basic;
+    // });
+    // console.log(mapTitles, "titulos en app");
+  };
+
+  useEffect(() => {
+    fetchData();
+  }, []);
+
+  if (loading) {
+    return (
+      <main>
+        <Loading />
+      </main>
+    );
+  }
+
+  return <Articles articles={articles} />;
 }
 
 export default App;
