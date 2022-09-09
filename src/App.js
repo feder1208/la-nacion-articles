@@ -1,19 +1,22 @@
 import "./App.css";
 import React, { useState, useEffect } from "react";
 import { Loading } from "./components/Loading";
-import { Articles } from "./components/Articles";
+// import { AccumulatedGrid } from "./components/accumulatedGrid";
+import { AccumulatedGrid } from "./components/accumulatedGrid";
+import './components/index.css'
 // import {fetchData} from "./services/fetchData"
 
 const url = "https://api-test-ln.herokuapp.com/articles";
 
 function App() {
   const [articles, setArticles] = useState([]);
-  const [loading, setLoading] = useState(true);
+  // const [loading, setLoading] = useState(true);
 
   const fetchData = async () => {
-    setLoading(true);
+    // setLoading(true);
     const response = await fetch(url);
-    const { articles } = await response.json();
+    const data = await response.json();
+    const { articles = [] } = data || {};
     setArticles(articles);
     console.log(articles, "en app.js");
     // console.log(articles.articles[0].headlines.basic);
@@ -27,15 +30,15 @@ function App() {
     fetchData();
   }, []);
 
-  if (loading) {
-    return (
-      <main>
-        <Loading />
-      </main>
-    );
-  }
+  // if (loading) {
+  //   return (
+  //     <main>
+  //       <Loading />
+  //     </main>
+  //   );
+  // }
 
-  return <Articles articles={articles} />;
+  return <AccumulatedGrid articles={articles} />;
 }
 
 export default App;
