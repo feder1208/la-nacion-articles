@@ -5,12 +5,12 @@ const AccumulatedGrid = ({ articles = [] }) => {
   console.log(articles, "en articles");
   console.log('hola');
 
-  const getUrls = (articles) => {
+ /*  const getUrls = (articles) => {
     return articles.map(article => {
       return article && article.promo_items && article.promo_items.basic && article.promo_items.basic.url
     })
   }
-  console.log('xxxxxxxxxxxxxxxxxx',getUrls(articles))
+  console.log('xxxxxxxxxxxxxxxxxx',getUrls(articles)) */
 
   const filterArticles = articles.filter(article => article.subtype === "7");
 
