@@ -1,9 +1,9 @@
 import React from "react";
 import { Article } from "./article";
+import { Tags } from "./tags";
 
 const AccumulatedGrid = ({ articles = [] }) => {
-  console.log(articles, "en articles");
-  console.log('hola');
+  // console.log(articles, "en articles");
 
  /*  const getUrls = (articles) => {
     return articles.map(article => {
@@ -26,6 +26,7 @@ const AccumulatedGrid = ({ articles = [] }) => {
         <div className="underline"></div>
       </div>
       <div>
+        <Tags articles={articles} {...articles}/>
         {/* {articles.length && articles.map((article) => {
           console.log(article, 'en articles')
           return <Article key={article._id} {...article}/>;

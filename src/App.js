@@ -18,7 +18,7 @@ function App() {
     const data = await response.json();
     const { articles = [] } = data || {};
     setArticles(articles);
-    console.log(articles, "en app.js");
+    // console.log(articles, "en app.js");
     // console.log(articles.articles[0].headlines.basic);
     // const mapTitles = articles.articles.map((article) => {
     //   return article.headlines.basic;
