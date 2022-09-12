@@ -2,7 +2,7 @@ import React from "react";
 
 const Article = ({ _id, display_date, headlines, promo_items = {}, taxonomy }) => {
   const { basic: { url = "" } = {} } = promo_items;
-  const {tags} = taxonomy;
+  // const {tags} = taxonomy;
   // console.log(tags, 'tags de los articulos');
   // const filterTags = tags.map(tag => tag.text);
   // console.log(filterTags, 'tags filtrados');
@@ -42,7 +42,7 @@ const Article = ({ _id, display_date, headlines, promo_items = {}, taxonomy }) =
         <div className="article-info">
           <h2>
             {headlines.basic}.que tiene de escudo al Che Guevara y donde izan la
-            bandera de Cuba
+            bandera de Cuba 
           </h2>
 
           <h4>{display_date}</h4>

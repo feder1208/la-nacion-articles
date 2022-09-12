@@ -15,7 +15,7 @@ const AccumulatedGrid = ({ articles = [] }) => {
   const filterArticles = articles.filter(article => article.subtype === "7");
 
   const articlesAccumulated = filterArticles.length && filterArticles.map((article) => {
-    console.log(article, 'en articles')
+    // console.log(article, 'articulos filtrados')
     return <Article key={article._id} {...article}/>;
   })
 

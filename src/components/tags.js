@@ -1,24 +1,25 @@
-import React from 'react'
+import React from "react";
 
-function Tags({articles}) {
+function Tags({ articles }) {
+  const filterArticles = articles.filter((article) => article.subtype === "7");
 
-    const mapArticles = articles.map((article) => {
-        const {taxonomy: {tags}} = article;
-        const {text} = tags;
-        // return console.log(text.map(texti => texti.text), 'en tags')
-       
-      })
-   
-    // const getTags =  mapArticles.map(tag => tag.text)
-    // console.log(getTags);
-    return (
-        <>
-        <div>tags</div>
-        {/* <div>{props}</div> */}
-        </>
-      )
-      
-  
+  const tags = filterArticles.map((article) => {
+    return article.taxonomy.tags;
+  });
+  console.log(tags, "en tags");
+
+  for (let text of tags) {
+    console.log(text);
+    for (let final of text) {
+        console.log(final.text);
+    } 
+  }
+
+  return (
+    <>
+      <div>tags</div>
+    </>
+  );
 }
 
-export {Tags}
+export { Tags };
