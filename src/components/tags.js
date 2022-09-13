@@ -3,50 +3,38 @@ import React from "react";
 function Tags({ articles }) {
   const filterArticles = articles.filter((article) => article.subtype === "7");
 
-  const tags = filterArticles.map((article) => {
-    return article.taxonomy.tags;
-  }).flat();
-//   console.log(tags, "en tags");
+  const tags = filterArticles
+    .map((article) => {
+      return article.taxonomy.tags;
+    })
+    .flat();
+  // console.log(tags, "en tags");
 
+  function groupTags(array) {
+    return array.reduce((acc, curr) => {
+      const key = curr.text;
 
-
-  function groupTags(obj, prop) {
-
-    return obj.reduce((acc, curr) =>  {
-    
-        
-      let key = curr[prop]
-  
-      if (!acc[key]) {
-  
-        acc[key] = []
-        
-  
+      if (!acc.some(position => position.text === key)) { 
+        acc.push({...curr, count: 0});
       }
-  
-      acc[key].push(curr)
-  
-      return acc
-  
-    }, {})
-  
-  }
-  
-  let groupedTags = groupTags(tags, 'text')
-  
-  console.log(groupedTags, 'groupedTags')
 
+      acc[acc.findIndex(el => el.text === key)].count += 1;
 
- /*  for (let text of tags) {
-    console.log(text.text);
-    for (let final of text) {
-        console.log(final.text);
-    } 
+      return acc;
+    }, []);
   }
- */
+
+  let groupedTags = groupTags(tags);
+  console.log(groupedTags, "groupedTags");
+
+  const sortedTags = groupedTags.sort((a, b) => b.count - a.count).splice(0, 10);
+  console.log(sortedTags);
+
   return (
     <>
-      <div>tags</div>
+      {sortedTags.map(({text, count, slug}) => {
+        return <h4 key={slug}>{text} ({count})</h4>
+      })}
     </>
   );
 }

@@ -26,11 +26,7 @@ const AccumulatedGrid = ({ articles = [] }) => {
         <div className="underline"></div>
       </div>
       <div>
-        <Tags articles={articles} {...articles}/>
-        {/* {articles.length && articles.map((article) => {
-          console.log(article, 'en articles')
-          return <Article key={article._id} {...article}/>;
-        })} */}
+        <Tags articles={articles}/>
         {articlesAccumulated}
       </div>
     </section>
