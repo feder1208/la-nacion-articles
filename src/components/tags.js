@@ -33,7 +33,7 @@ function Tags({ articles }) {
   return (
     <>
       {sortedTags.map(({text, count, slug}) => {
-        return <h4 key={slug}>{text} ({count})</h4>
+        return <a key={slug} href='/' >{text} ({count}) </a>
       })}
     </>
   );
