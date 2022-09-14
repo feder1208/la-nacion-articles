@@ -1,7 +1,9 @@
 import React from "react";
+import {SetDate} from "./date";
 
-const Article = ({ _id, display_date, headlines, promo_items = {}, taxonomy }) => {
+const Article = ({ display_date, headlines, promo_items = {} }) => {
   const { basic: { url = "" } = {} } = promo_items;
+
 
   return (
     <>
@@ -15,7 +17,8 @@ const Article = ({ _id, display_date, headlines, promo_items = {}, taxonomy }) =
             bandera de Cuba 
           </h2>
 
-          <h4>{display_date}</h4>
+          {/* <h4>{display_date}</h4> */}
+          <SetDate date={display_date}/>
         </div>
       </article>
     </>
