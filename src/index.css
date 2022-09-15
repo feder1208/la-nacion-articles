@@ -40,7 +40,7 @@ tt,
 var,
 b,
 u,
-i,
+i,index.css
 center,
 dl,
 dt,
@@ -184,7 +184,37 @@ main {
 /* ORDERS */
 /* OFFSETS */
 /* FONTS --------------- */
+/* @font-face {
+  font-family: "SuecaSlab";
+  src: url("../fonts/suecaslab-medium-webfont.eot");
+  src: url("../fonts/suecaslab-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/suecaslab-medium-webfont.woff") format("woff"), url("../fonts/suecaslab-medium-webfont.ttf") format("truetype"), url("../fonts/suecaslab-medium-webfont.svg?#webfont") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: "SuecaSlab";
+  src: url("../fonts/suecaslab-bold-webfont.eot");
+  src: url("../fonts/suecaslab-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/suecaslab-bold-webfont.woff") format("woff"), url("../fonts/suecaslab-bold-webfont.ttf") format("truetype"), url("../fonts/suecaslab-bold-webfont.svg?#webfont") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LNicons";
+  src: url("../fonts/ln-icons.eot");
+  src: url("../fonts/ln-icons.eot?#iefix") format("embedded-opentype"), url("../fonts/ln-icons.woff") format("woff"), url("../fonts/ln-icons.ttf") format("truetype"), url("../fonts/ln-icons.svg?#webfont") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LNlogos";
+  src: url("../fonts/ln-logos.eot");
+  src: url("../fonts/ln-logos.eot?#iefix") format("embedded-opentype"), url("../fonts/ln-logos.woff") format("woff"), url("../fonts/ln-logos.ttf") format("truetype"), url("../fonts/ln-logos.svg?#webfont") format("svg");
+  font-weight: normal;
+  font-style: normal;
+} */
 
 strong {
   font-weight: 700;
@@ -2989,6 +3019,7 @@ strong {
           filter: brightness(100%);
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
+  width: 100%;
 }
 
 .cont-figure .figure .content-pic .content-img:hover {
@@ -5642,7 +5673,7 @@ input[type=text]:focus::placeholder {
 
 .com-search .icon-search {
   position: ABSOLUTE;
-  left: 160px;
+  left: 140px;
   z-index: 150;
   font-size: 26px;
   top: 6px;
@@ -6131,7 +6162,12 @@ input[type=text]:focus::placeholder {
   line-height: 1.4375rem;
 }
 
-
+/* .mod-newsletter .col-12:nth-child(2) {
+  background-image: url("/arc-css/img/newsletter-lineas-trama-der.svg");
+  background-position: right top;
+  background-size: 40%;
+  background-repeat: no-repeat;
+} */
 
 .mod-newsletter .col-12:nth-child(3) {
   padding-top: 0;
@@ -6179,7 +6215,12 @@ input[type=text]:focus::placeholder {
   font-size: 0.75em;
 }
 
-
+/* .mod-newsletter.error .com-input {
+  border: 1px solid #9d2827;
+  background-image: url("/arc-css/img/x.svg");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+} */
 
 .mod-newsletter.error .com-input:after {
   content: '\e912';
@@ -6188,7 +6229,11 @@ input[type=text]:focus::placeholder {
   color: #9d2827;
 }
 
-
+/* .mod-newsletter p.check {
+  background-image: url("/arc-css/img/check.svg");
+  background-repeat: no-repeat;
+  text-indent: 30px;
+} */
 
 .mod-newsletter label.check {
   display: block;
@@ -6240,7 +6285,14 @@ input[type=text]:focus::placeholder {
     background-repeat: no-repeat;
     background-size: 100%;
   }
- 
+  /* .mod-newsletter .col-tablet-2:first-child {
+    background-image: url("/arc-css/img/newsletter-lineas-trama-izq.svg");
+    background-position: left bottom;
+  }
+  .mod-newsletter .col-tablet-2:last-child {
+    background-image: url("/arc-css/img/newsletter-lineas-trama-der.svg");
+    background-position: right top;
+  } */
 }
 
 @media (min-width: 1280px) {
@@ -6701,15 +6753,25 @@ article a.figure:before {
   background-color: #b40d15;
 }
 
-
-.com-secondary-tag a {
-    font-family: "Arial", "sans-serif";
-    font-size: 0.875rem;
-    margin-right: 17px;
-    display: inline-block;
-    position: relative;
-    color: #0074c4;
-    margin-bottom: 10px;
+/* .logo-la-nacion {
+  color: #006998;
+  font-size: 4rem;
+  font-family: 'icomoon';
+  font-weight: bold;
+  font-style: normal;
+  line-height: 1;
 }
-
+.logo-la-nacion::before {
+  content: "LA NACION";
+}.logo-la-nacion {
+  color: #006998;
+  font-size: 4rem;
+  font-family: 'icomoon';
+  font-weight: bold;
+  font-style: normal;
+  line-height: 1;
+}
+.logo-la-nacion::before {
+  content: "LA NACION";
+} */
 /*# sourceMappingURL=site.css.map */
