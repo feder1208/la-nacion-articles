@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { Loading } from "./components/loading";
-
 import "../src/index.css";
-// import {fetchData} from "./services/fetchData"
+import { Loading } from "./components/loading";
 import { Header } from "./components/header";
 import { BannerTop } from "./components/bannerTop";
 import { AccumulatedGrid } from "./components/accumulatedGrid";
@@ -22,12 +20,6 @@ function App() {
     setArticles(articles);
     setLoading(false);
   };
-
-  // useEffect(() => {
-  //   const data = fetchData();
-  //   setArticles(data);
-  // }, []);
-  
 
   useEffect(() => {
     fetchData();

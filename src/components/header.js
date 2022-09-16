@@ -27,9 +27,9 @@ function Header() {
                   xmlns="http://www.w3.org/2000/svg"
                   aria-labelledby="searchIconTitle"
                   stroke="#000000"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   fill="none"
                   color="#000000"
                 >
@@ -47,7 +47,6 @@ function Header() {
           </div>
           <div className="col-4  header__middle">
             <a href="/" className="header__middle__logo">
-              {/* <i className="logo-la-nacion"></i> */}
               <LogoLaNacion />
             </a>
           </div>

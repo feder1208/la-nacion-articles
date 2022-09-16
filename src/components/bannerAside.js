@@ -1,12 +1,12 @@
 import React from "react";
 
-function BannerAside () {
+function BannerAside() {
   return (
     <div className="sidebar__aside">
-        <div className="banner --desktop --large"></div>
-        <div className="banner --desktop --large"></div>
+      <div className="banner --desktop --large"></div>
+      <div className="banner --desktop --large"></div>
     </div>
-  )
+  );
 }
 
-export  {BannerAside};
+export { BannerAside };

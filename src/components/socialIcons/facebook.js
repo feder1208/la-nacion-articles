@@ -3,7 +3,6 @@ import React from "react";
 const FacebookIcon = () => {
   return (
     <a href="https://www.facebook.com/lanacion" style={{ marginRight: "50px" }}>
-      {/* <i class="icon-facebook"></i> */}
       <svg
         width="24px"
         height="24px"

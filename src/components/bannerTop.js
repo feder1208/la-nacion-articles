@@ -2,10 +2,10 @@ import React from "react";
 
 function BannerTop() {
   return (
-    <div class="banner w-100 --bg-banner">
-      <div class="banner --top --desktop"></div>
-      <div class="banner --top --tablet"></div>
-      <div class="banner --top --mobile"></div>
+    <div className="banner w-100 --bg-banner">
+      <div className="banner --top --desktop"></div>
+      <div className="banner --top --tablet"></div>
+      <div className="banner --top --mobile"></div>
     </div>
   );
 }
