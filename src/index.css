@@ -323,9 +323,9 @@ strong {
   content: "\e915";
 }
 
-.icon-search:before {
+/* .icon-search:before {
   content: "\e916";
-}
+} */
 
 .icon-setting:before {
   content: "\e917";
@@ -5673,7 +5673,7 @@ input[type=text]:focus::placeholder {
 
 .com-search .icon-search {
   position: ABSOLUTE;
-  left: 140px;
+  left: 160px;
   z-index: 150;
   font-size: 26px;
   top: 6px;
