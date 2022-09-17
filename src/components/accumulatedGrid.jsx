@@ -1,8 +1,31 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { Loading } from "./loading";
 import { Article } from "./article";
 import { Tags } from "./tags";
+import { fetchData } from "../services/fetchData";
 
-const AccumulatedGrid = ({ articles = [] }) => {
+const AccumulatedGrid = () => {
+  const [articles, setArticles] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  const data = async () => {
+    const getData = await fetchData();
+    setArticles(await fetchData(getData));
+    setLoading(false);
+  };
+
+  useEffect(() => {
+    data();
+  }, []);
+
+  if (loading) {
+    return (
+      <main>
+        <Loading />
+      </main>
+    );
+  }
+
   const filterArticles = articles.filter((article) => article.subtype === "7");
 
   const articlesAccumulated =
@@ -21,13 +44,13 @@ const AccumulatedGrid = ({ articles = [] }) => {
         </div>
       </div>
       <div className="row">
-        <div id="" class="cont_tags com-secondary-tag hlp-marginBottom-20">
+        <div id="" className="cont_tags com-secondary-tag hlp-marginBottom-20">
           <Tags className="" articles={articles} />
         </div>
       </div>
       <section className="row-gap-tablet-2 row-gap-deskxl-3 hlp-degrade">
         {articlesAccumulated}
-        <div class="transparency"></div>
+        <div className="transparency"></div>
       </section>
     </div>
   );
