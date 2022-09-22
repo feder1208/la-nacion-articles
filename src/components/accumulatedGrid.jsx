@@ -28,7 +28,6 @@ const AccumulatedGrid = () => {
   }
 
   const filterArticles = filterArticlesBySubtype(articles);
-  console.log(articles, filterArticles);
 
   const articlesAccumulated =
     filterArticles.length &&

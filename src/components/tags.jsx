@@ -7,7 +7,6 @@ function Tags({ articles }) {
   const filterArticles = filterArticlesBySubtype(articles);
 
   const sortedTags = groupAndSortTags(filterArticles);
-  console.log(sortedTags, 'sorted');
 
   return (
     <>
