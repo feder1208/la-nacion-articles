@@ -1,7 +1,7 @@
 import React from "react";
 import { SetDate } from "./date";
 
-const Article = ({ display_date, headlines, promo_items = {} }) => {
+const Article = ({ display_date, headlines = '', promo_items = {} }) => {
   const { basic: { url = "" } = {} } = promo_items;
 
   return (

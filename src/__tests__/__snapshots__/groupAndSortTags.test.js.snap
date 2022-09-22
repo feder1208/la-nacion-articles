@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Group the tags in ascending order Should return 10 objects by count 1`] = `
+Array [
+  Object {
+    "count": 13,
+    "slug": "huevo-tid47236",
+    "text": "Huevo",
+  },
+  Object {
+    "count": 9,
+    "slug": "leche-tid47244",
+    "text": "Leche",
+  },
+  Object {
+    "count": 7,
+    "slug": "arroz-tid47136",
+    "text": "Arroz",
+  },
+  Object {
+    "count": 7,
+    "slug": "manteca-tid47257",
+    "text": "Manteca",
+  },
+  Object {
+    "count": 7,
+    "slug": "azucar-tid47141",
+    "text": "Azúcar",
+  },
+  Object {
+    "count": 5,
+    "slug": "harina-0000-tid48184",
+    "text": "Harina 0000",
+  },
+  Object {
+    "count": 4,
+    "slug": "pescados-tid67216",
+    "text": "Pescados",
+  },
+  Object {
+    "count": 4,
+    "slug": "ajo-tid47126",
+    "text": "Ajo",
+  },
+  Object {
+    "count": 4,
+    "slug": "frutas-tid67217",
+    "text": "Frutas",
+  },
+  Object {
+    "count": 3,
+    "slug": "canela-tid47164",
+    "text": "Canela",
+  },
+]
+`;

@@ -1,0 +1,1822 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Filter function It should filter only the articles by subtype 7 1`] = `
+Array [
+  Object {
+    "_id": "ZNJ67CCHJNAEBE6IUETWOXMNFM",
+    "display_date": "2019-12-06T17:50:17.735Z",
+    "headlines": Object {
+      "basic": "Arroz con Leche",
+    },
+    "promo_items": Object {
+      "basic": Object {
+        "resized_urls": Array [
+          Object {
+            "option": Object {
+              "media": "(min-width: 64em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/238iFhDAmiNDgSegPUuF0J8Xqww=/600x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/24QQFAJS3ZGTFL5KXDDUNP5UJU.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 48em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/7hcljZtr0MVNDGKu7v0k-UfSl5s=/520x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/24QQFAJS3ZGTFL5KXDDUNP5UJU.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 20em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/c5D7LVmjBKyRNBTnG1odhYltR_8=/375x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/24QQFAJS3ZGTFL5KXDDUNP5UJU.jpg",
+          },
+        ],
+        "subtitle": "Gentileza: Malcriado-Entre fuegos y vinos",
+        "type": "image",
+        "url": "https://arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/24QQFAJS3ZGTFL5KXDDUNP5UJU.jpg",
+      },
+    },
+    "subtype": "7",
+    "taxonomy": Object {
+      "tags": Array [
+        Object {
+          "slug": "leche-tid47244",
+          "text": "Leche",
+        },
+        Object {
+          "slug": "leche-condensada-tid47751",
+          "text": "Leche condensada",
+        },
+        Object {
+          "slug": "leche-de-coco-tid48865",
+          "text": "Leche de coco",
+        },
+        Object {
+          "slug": "canela-tid47164",
+          "text": "Canela",
+        },
+        Object {
+          "slug": "limon-tid47252",
+          "text": "Limón",
+        },
+        Object {
+          "slug": "esencia-de-vainilla-tid47214",
+          "text": "Esencia de vainilla",
+        },
+        Object {
+          "slug": "arroz-tid47136",
+          "text": "Arroz",
+        },
+        Object {
+          "slug": "clavo-de-olor-tid47192",
+          "text": "Clavo de olor",
+        },
+      ],
+    },
+    "website_url": "/recetas/postres/arroz-con-leche-nid29102019-6/",
+  },
+  Object {
+    "_id": "ATLC5WVL4NH5HAHU2BWJXTSATY",
+    "display_date": "2019-12-03T16:04:38.007Z",
+    "headlines": Object {
+      "basic": "NOTA RECETA DE PRUEBA (DO NOT DELETE (Ú.Ú) )",
+    },
+    "promo_items": Object {
+      "basic": Object {
+        "resized_urls": Array [
+          Object {
+            "option": Object {
+              "media": "(min-width: 64em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/yzkzOrfuICGCehZJX1H6IPXHB3s=/600x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/2JPPEPJ5BBA3HIVSSAXXUQFXWE.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 48em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/bQeLJtUbaS-nOqWjlGUQ8gGj47s=/520x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/2JPPEPJ5BBA3HIVSSAXXUQFXWE.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 20em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/dXsAGRUh17Fih93yWlimbRf2XBw=/375x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/2JPPEPJ5BBA3HIVSSAXXUQFXWE.jpg",
+          },
+        ],
+        "subtitle": "Gentileza: Malcriado-Entre fuegos y vinos",
+        "type": "image",
+        "url": "https://arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/2JPPEPJ5BBA3HIVSSAXXUQFXWE.jpg",
+      },
+    },
+    "subtype": "7",
+    "taxonomy": Object {
+      "tags": Array [
+        Object {
+          "slug": "obesidad",
+          "text": "obesidad",
+        },
+        Object {
+          "slug": "chancho",
+          "text": "chancho",
+        },
+        Object {
+          "slug": "comida",
+          "text": "comida",
+        },
+        Object {
+          "slug": "engordar",
+          "text": "engordar",
+        },
+        Object {
+          "slug": "explotar",
+          "text": "explotar",
+        },
+        Object {
+          "slug": "ballena",
+          "text": "ballena",
+        },
+      ],
+    },
+    "website_url": "/recetas/nota-receta-de-prueba-do-not-delete-uu-nid03122019/",
+  },
+  Object {
+    "_id": "NVDUCEERNZHWFH66AFKFLJEHOE",
+    "display_date": "2019-10-29T16:42:00Z",
+    "headlines": Object {
+      "basic": "Risotto con alcauciles y frutos de mar",
+    },
+    "promo_items": Object {
+      "basic": Object {
+        "resized_urls": Array [
+          Object {
+            "option": Object {
+              "media": "(min-width: 64em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/HjMXkcGmwqPfbcolAPAOyYBDz8M=/600x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/GZYHKNH7WFFZVAT4LEW2IMB25Q.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 48em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/HZbvmbMMQFjZu0eFoFN0lGQjsrQ=/520x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/GZYHKNH7WFFZVAT4LEW2IMB25Q.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 20em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/oL1AzQ5dc30xzjKMQ4b2MaeOWrE=/375x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/GZYHKNH7WFFZVAT4LEW2IMB25Q.jpg",
+          },
+        ],
+        "subtitle": "Gentileza: LAdesso",
+        "type": "image",
+        "url": "https://arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/GZYHKNH7WFFZVAT4LEW2IMB25Q.jpg",
+      },
+    },
+    "subtype": "7",
+    "taxonomy": Object {
+      "tags": Array [
+        Object {
+          "slug": "pescados-tid67216",
+          "text": "Pescados",
+        },
+        Object {
+          "slug": "arroz-tid47136",
+          "text": "Arroz",
+        },
+        Object {
+          "slug": "ajo-tid47126",
+          "text": "Ajo",
+        },
+        Object {
+          "slug": "aceite-de-oliva-tid47117",
+          "text": "Aceite de oliva",
+        },
+        Object {
+          "slug": "vino-blanco-tid47349",
+          "text": "Vino blanco",
+        },
+        Object {
+          "slug": "alcaucil-tid47129",
+          "text": "Alcaucil",
+        },
+        Object {
+          "slug": "limon-tid47252",
+          "text": "Limón",
+        },
+        Object {
+          "slug": "perejil-tid47297",
+          "text": "Perejil",
+        },
+        Object {
+          "slug": "mejillon-tid47930",
+          "text": "Mejillón",
+        },
+        Object {
+          "slug": "langostinos-tid47750",
+          "text": "Langostinos",
+        },
+      ],
+    },
+    "website_url": "/recetas/platos-de-comida-principal/risotto-con-alcauciles-y-frutos-de-mar-nid29102019-6/",
+  },
+  Object {
+    "_id": "XVGYAV53LJGYNI7LPBWO42K55Y",
+    "display_date": "2019-10-29T16:35:00Z",
+    "headlines": Object {
+      "basic": "Yakimeshi de pollo",
+    },
+    "promo_items": Object {
+      "basic": Object {
+        "resized_urls": Array [
+          Object {
+            "option": Object {
+              "media": "(min-width: 64em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/_WIENRYzXk_tzWryfWGBBCiGgpM=/600x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/NZV375TG7VGW3NXQDOLR4G22Z4.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 48em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/6WQihgvMjiNhmKFn7fAe4x1pIeg=/520x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/NZV375TG7VGW3NXQDOLR4G22Z4.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 20em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/9qVVcK5RwA2CyqopSw0Rz3nWijM=/375x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/NZV375TG7VGW3NXQDOLR4G22Z4.jpg",
+          },
+        ],
+        "subtitle": "Gentileza: La Causa Nikkei",
+        "type": "image",
+        "url": "https://arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/NZV375TG7VGW3NXQDOLR4G22Z4.jpg",
+      },
+    },
+    "subtype": "7",
+    "taxonomy": Object {
+      "tags": Array [
+        Object {
+          "slug": "arroz-tid47136",
+          "text": "Arroz",
+        },
+        Object {
+          "slug": "huevo-tid47236",
+          "text": "Huevo",
+        },
+        Object {
+          "slug": "morron-rojo-tid47270",
+          "text": "Morrón rojo",
+        },
+        Object {
+          "slug": "zanahoria-tid47352",
+          "text": "Zanahoria",
+        },
+        Object {
+          "slug": "choclo-tid47183",
+          "text": "Choclo",
+        },
+        Object {
+          "slug": "ajo-tid47126",
+          "text": "Ajo",
+        },
+        Object {
+          "slug": "jengibre-tid47239",
+          "text": "Jengibre",
+        },
+        Object {
+          "slug": "manteca-tid47257",
+          "text": "Manteca",
+        },
+        Object {
+          "slug": "salsa-de-soja-tid47331",
+          "text": "Salsa de soja",
+        },
+        Object {
+          "slug": "semillas-de-sesamo-tid47338",
+          "text": "Semillas de sésamo",
+        },
+        Object {
+          "slug": "cebolla-de-verdeo-tid47175",
+          "text": "Cebolla de verdeo",
+        },
+        Object {
+          "slug": "pechuga-de-pollo-tid47294",
+          "text": "Pechuga de pollo",
+        },
+      ],
+    },
+    "website_url": "/recetas/platos-de-comida-principal/yakimeshi-de-pollo-nid29102019-6/",
+  },
+  Object {
+    "_id": "EZYG5OEVH5HSJJCUMJO5XAHTTA",
+    "display_date": "2019-10-29T16:30:00Z",
+    "headlines": Object {
+      "basic": "Arroz chaufa de mariscos",
+    },
+    "promo_items": Object {
+      "basic": Object {
+        "resized_urls": Array [
+          Object {
+            "option": Object {
+              "media": "(min-width: 64em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/mE9F4QN85y6hnPNuRu8EUFuBCBk=/600x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/GDAKALQ7IZBETO6NO4MUEDYBCU.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 48em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/yEE-D8nvfKXDl9WpT_3YKWYq39A=/520x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/GDAKALQ7IZBETO6NO4MUEDYBCU.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 20em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/bXRHH0Ef0dd3fNbzG5Pz2OJZ6lk=/375x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/GDAKALQ7IZBETO6NO4MUEDYBCU.jpg",
+          },
+        ],
+        "subtitle": "Gentileza: La Causa Nikkei",
+        "type": "image",
+        "url": "https://arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/GDAKALQ7IZBETO6NO4MUEDYBCU.jpg",
+      },
+    },
+    "subtype": "7",
+    "taxonomy": Object {
+      "tags": Array [
+        Object {
+          "slug": "pescados-tid67216",
+          "text": "Pescados",
+        },
+        Object {
+          "slug": "aceite-de-girasol-tid48354",
+          "text": "Aceite de girasol",
+        },
+        Object {
+          "slug": "huevo-tid47236",
+          "text": "Huevo",
+        },
+        Object {
+          "slug": "marisco-tid48507",
+          "text": "Marisco",
+        },
+        Object {
+          "slug": "ajo-tid47126",
+          "text": "Ajo",
+        },
+        Object {
+          "slug": "jengibre-tid47239",
+          "text": "Jengibre",
+        },
+        Object {
+          "slug": "arroz-tid47136",
+          "text": "Arroz",
+        },
+        Object {
+          "slug": "aceite-de-sesamo-tid48684",
+          "text": "Aceite de sésamo",
+        },
+        Object {
+          "slug": "salsa-de-soja-tid47331",
+          "text": "Salsa de soja",
+        },
+      ],
+    },
+    "website_url": "/recetas/platos-de-comida-principal/arroz-chaufa-de-mariscos-nid29102019-6/",
+  },
+  Object {
+    "_id": "UEB6L5PBTBB7BI4YIOKWC3SBOA",
+    "display_date": "2019-10-24T11:53:00Z",
+    "headlines": Object {
+      "basic": "Quiche de espinacas y cherries",
+    },
+    "promo_items": Object {
+      "basic": Object {
+        "resized_urls": Array [
+          Object {
+            "option": Object {
+              "media": "(min-width: 64em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/IIg5h_uiRJSN_A5NDe9OKthZmbA=/600x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/6NENEJD3K5GRLL3QRPHMFKVM7I.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 48em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/gMwEOlBw1z31maT6kbQ5r3jljQs=/520x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/6NENEJD3K5GRLL3QRPHMFKVM7I.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 20em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/SoR9Rurrp3NKcYw6DG1YANLEGV4=/375x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/6NENEJD3K5GRLL3QRPHMFKVM7I.jpg",
+          },
+        ],
+        "subtitle": "Quiche de espinacas y cherries",
+        "type": "image",
+        "url": "https://arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/6NENEJD3K5GRLL3QRPHMFKVM7I.jpg",
+      },
+    },
+    "subtype": "7",
+    "taxonomy": Object {
+      "tags": Array [
+        Object {
+          "slug": "quesos-tid67219",
+          "text": "Quesos",
+        },
+        Object {
+          "slug": "vegetales-tid67215",
+          "text": "Vegetales",
+        },
+        Object {
+          "slug": "espinaca-tid47216",
+          "text": "Espinaca",
+        },
+        Object {
+          "slug": "tomates-cherry-tid47342",
+          "text": "Tomates cherry",
+        },
+        Object {
+          "slug": "huevo-tid47236",
+          "text": "Huevo",
+        },
+        Object {
+          "slug": "queso-parmesano-tid47772",
+          "text": "Queso parmesano",
+        },
+      ],
+    },
+    "website_url": "/recetas/platos-de-comida-principal/quiche-de-espinacas-y-cherries-nid24102019-6/",
+  },
+  Object {
+    "_id": "SYS3A3JA4JCDPKECSOLEQAUBEQ",
+    "display_date": "2019-10-10T12:55:00Z",
+    "headlines": Object {
+      "basic": "Pan “crunchy” de manzanas y dulce de leche",
+    },
+    "promo_items": Object {
+      "basic": Object {
+        "resized_urls": Array [
+          Object {
+            "option": Object {
+              "media": "(min-width: 64em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/VmO0yA7QbqJUN2-NNYaS90evufQ=/600x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/UFJVSLPS2NEOVBKGWV7IL4ZB64.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 48em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/C6xY4dwoYt-EtgvliCrJldhEKco=/520x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/UFJVSLPS2NEOVBKGWV7IL4ZB64.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 20em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/mR-S70Q8qo7lDikMrp_wAPwq25E=/375x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/UFJVSLPS2NEOVBKGWV7IL4ZB64.jpg",
+          },
+        ],
+        "subtitle": "Pan “crunchy” de manzanas y dulce de leche",
+        "type": "image",
+        "url": "https://arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/UFJVSLPS2NEOVBKGWV7IL4ZB64.jpg",
+      },
+    },
+    "subtype": "7",
+    "taxonomy": Object {
+      "tags": Array [
+        Object {
+          "slug": "frutas-tid67217",
+          "text": "Frutas",
+        },
+        Object {
+          "slug": "dulce-de-leche-tid47208",
+          "text": "Dulce de leche",
+        },
+        Object {
+          "slug": "manzana-tid47258",
+          "text": "Manzana",
+        },
+        Object {
+          "slug": "nueces-tid47275",
+          "text": "Nueces",
+        },
+        Object {
+          "slug": "harina-leudante-tid47231",
+          "text": "Harina leudante",
+        },
+        Object {
+          "slug": "bicarbonato-tid47149",
+          "text": "Bicarbonato",
+        },
+        Object {
+          "slug": "huevo-tid47236",
+          "text": "Huevo",
+        },
+        Object {
+          "slug": "leche-tid47244",
+          "text": "Leche",
+        },
+        Object {
+          "slug": "manteca-tid47257",
+          "text": "Manteca",
+        },
+        Object {
+          "slug": "azucar-tid47141",
+          "text": "Azúcar",
+        },
+        Object {
+          "slug": "azucar-negra-tid47143",
+          "text": "Azúcar negra",
+        },
+      ],
+    },
+    "website_url": "/recetas/dulces/pan-crunchy-de-manzanas-y-dulce-de-leche-nid10102019-6/",
+  },
+  Object {
+    "_id": "IUJ3IMKS65AO7NBQ7Z5UCI4N3A",
+    "display_date": "2019-07-10T12:18:00Z",
+    "headlines": Object {
+      "basic": "Solomillo de cerdo con coliflor",
+    },
+    "promo_items": Object {
+      "basic": Object {
+        "resized_urls": Array [
+          Object {
+            "option": Object {
+              "media": "(min-width: 64em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/KnrUSH1tpPxTkQoKMc3q60vIT1A=/600x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/JCFL6RCFCNFXTOHTAQNAWCQ2RM.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 48em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/YPvd8fxGkCwYF55cvVyBxAxQ83U=/520x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/JCFL6RCFCNFXTOHTAQNAWCQ2RM.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 20em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/TctiDEMGZe1lsLHWtX-m3yhY2r0=/375x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/JCFL6RCFCNFXTOHTAQNAWCQ2RM.jpg",
+          },
+        ],
+        "subtitle": "Solomillo de cerdo con coliflor",
+        "type": "image",
+        "url": "https://arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/JCFL6RCFCNFXTOHTAQNAWCQ2RM.jpg",
+      },
+    },
+    "subtype": "7",
+    "taxonomy": Object {
+      "tags": Array [
+        Object {
+          "slug": "cerdo-tid47176",
+          "text": "Cerdo",
+        },
+        Object {
+          "slug": "coliflor-tid48542",
+          "text": "Coliflor",
+        },
+        Object {
+          "slug": "crema-de-leche-tid47204",
+          "text": "Crema de leche",
+        },
+        Object {
+          "slug": "leche-tid47244",
+          "text": "Leche",
+        },
+        Object {
+          "slug": "mostaza-en-grano-tid48687",
+          "text": "Mostaza en grano",
+        },
+        Object {
+          "slug": "romero-tid47325",
+          "text": "Romero",
+        },
+      ],
+    },
+    "website_url": "/recetas/platos-de-comida-principal/solomillo-de-cerdo-con-coliflor-nid10072019-6/",
+  },
+  Object {
+    "_id": "5563D4RY5FEEDPUP735U5D7IWY",
+    "display_date": "2019-06-04T15:42:00Z",
+    "headlines": Object {
+      "basic": "Tarta de chocolate y avellana",
+    },
+    "promo_items": Object {
+      "basic": Object {
+        "resized_urls": Array [
+          Object {
+            "option": Object {
+              "media": "(min-width: 64em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/uoD6H3_IRFaz2wO2RKbEOZ-mmfE=/600x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/6CHAFGI2SVFFZH7DTOY7VCH3AQ.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 48em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/rx2HKnzvaZcaz2SEXa5nsyTaiZU=/520x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/6CHAFGI2SVFFZH7DTOY7VCH3AQ.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 20em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/G3Xp3DbDkieLhmC_1IYzuPjwCu0=/375x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/6CHAFGI2SVFFZH7DTOY7VCH3AQ.jpg",
+          },
+        ],
+        "subtitle": "Gentileza: Hotel Club Francés",
+        "type": "image",
+        "url": "https://arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/6CHAFGI2SVFFZH7DTOY7VCH3AQ.jpg",
+      },
+    },
+    "subtype": "7",
+    "taxonomy": Object {
+      "tags": Array [
+        Object {
+          "slug": "azucar-tid47141",
+          "text": "Azúcar",
+        },
+        Object {
+          "slug": "azucar-impalpable-tid47142",
+          "text": "Azúcar impalpable",
+        },
+        Object {
+          "slug": "manteca-tid47257",
+          "text": "Manteca",
+        },
+        Object {
+          "slug": "huevo-tid47236",
+          "text": "Huevo",
+        },
+        Object {
+          "slug": "yema-tid47350",
+          "text": "Yema",
+        },
+        Object {
+          "slug": "chocolate-amargo-tid47185",
+          "text": "Chocolate amargo",
+        },
+        Object {
+          "slug": "avellana-tid49037",
+          "text": "Avellana",
+        },
+        Object {
+          "slug": "harina-0000-tid48184",
+          "text": "Harina 0000",
+        },
+        Object {
+          "slug": "cacao-tid47155",
+          "text": "Cacao",
+        },
+        Object {
+          "slug": "crema-de-leche-tid47204",
+          "text": "Crema de leche",
+        },
+        Object {
+          "slug": "leche-tid47244",
+          "text": "Leche",
+        },
+        Object {
+          "slug": "glucosa-tid47227",
+          "text": "Glucosa",
+        },
+      ],
+    },
+    "website_url": "/recetas/postres/tarta-de-chocolate-y-avellana-nid04062019-6/",
+  },
+  Object {
+    "_id": "CHJ3XADOMVDABCBKUY2DC4TXXA",
+    "display_date": "2019-06-04T15:41:00Z",
+    "headlines": Object {
+      "basic": "Baba au Rhum",
+    },
+    "promo_items": Object {
+      "basic": Object {
+        "resized_urls": Array [
+          Object {
+            "option": Object {
+              "media": "(min-width: 64em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/vYp7hHBuYfnp1B35lpNyDSROH70=/600x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/MDTA2PHMVZCM3O4UKAJQ462RZM.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 48em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/yMB_0EV5Egcc5KysHS0N80t4idM=/520x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/MDTA2PHMVZCM3O4UKAJQ462RZM.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 20em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/RIaHgMDwq4eX-_ha5eRPisFh4No=/375x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/MDTA2PHMVZCM3O4UKAJQ462RZM.jpg",
+          },
+        ],
+        "subtitle": "Gentileza: Fleur de Sel",
+        "type": "image",
+        "url": "https://arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/MDTA2PHMVZCM3O4UKAJQ462RZM.jpg",
+      },
+    },
+    "subtype": "7",
+    "taxonomy": Object {
+      "tags": Array [
+        Object {
+          "slug": "azucar-tid47141",
+          "text": "Azúcar",
+        },
+        Object {
+          "slug": "manteca-tid47257",
+          "text": "Manteca",
+        },
+        Object {
+          "slug": "huevo-tid47236",
+          "text": "Huevo",
+        },
+        Object {
+          "slug": "leche-tid47244",
+          "text": "Leche",
+        },
+        Object {
+          "slug": "harina-0000-tid48184",
+          "text": "Harina 0000",
+        },
+        Object {
+          "slug": "levadura-tid47249",
+          "text": "Levadura",
+        },
+        Object {
+          "slug": "rhum-tid47323",
+          "text": "Rhum",
+        },
+        Object {
+          "slug": "chaucha-de-vainilla-tid48445",
+          "text": "Chaucha de vainilla",
+        },
+        Object {
+          "slug": "crema-de-leche-tid47204",
+          "text": "Crema de leche",
+        },
+      ],
+    },
+    "website_url": "/recetas/postres/baba-au-rhum-nid04062019-6/",
+  },
+  Object {
+    "_id": "QGURAE2PYBC7RAQ4ZCVCBHWAKU",
+    "display_date": "2019-06-04T15:41:00Z",
+    "headlines": Object {
+      "basic": "Canelé",
+    },
+    "promo_items": Object {
+      "basic": Object {
+        "resized_urls": Array [
+          Object {
+            "option": Object {
+              "media": "(min-width: 64em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/yW9jSYC2n3UPSV9mA3R3AaizjlQ=/600x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/JEYZQPBNQJDLLNGXCKABEZIIDY.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 48em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/j9wLXeXBCjid913lJ_mT2MawXnY=/520x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/JEYZQPBNQJDLLNGXCKABEZIIDY.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 20em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/sgrclgxoddM4c6bX7nUEbm-4dCM=/375x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/JEYZQPBNQJDLLNGXCKABEZIIDY.jpg",
+          },
+        ],
+        "subtitle": "Gentileza: Laban Catering",
+        "type": "image",
+        "url": "https://arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/JEYZQPBNQJDLLNGXCKABEZIIDY.jpg",
+      },
+    },
+    "subtype": "7",
+    "taxonomy": Object {
+      "tags": Array [
+        Object {
+          "slug": "manteca-tid47257",
+          "text": "Manteca",
+        },
+        Object {
+          "slug": "harina-0000-tid48184",
+          "text": "Harina 0000",
+        },
+        Object {
+          "slug": "huevo-tid47236",
+          "text": "Huevo",
+        },
+        Object {
+          "slug": "esencia-de-vainilla-tid47214",
+          "text": "Esencia de vainilla",
+        },
+        Object {
+          "slug": "rhum-tid47323",
+          "text": "Rhum",
+        },
+        Object {
+          "slug": "leche-tid47244",
+          "text": "Leche",
+        },
+        Object {
+          "slug": "azucar-impalpable-tid47142",
+          "text": "Azúcar impalpable",
+        },
+      ],
+    },
+    "website_url": "/recetas/dulces/canele-nid04062019-6/",
+  },
+  Object {
+    "_id": "4KBUSE6S7FF5LBK5R3A735ZD2Y",
+    "display_date": "2019-06-04T15:40:00Z",
+    "headlines": Object {
+      "basic": "Madeleines",
+    },
+    "promo_items": Object {
+      "basic": Object {
+        "resized_urls": Array [
+          Object {
+            "option": Object {
+              "media": "(min-width: 64em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/CMEMhMlwvW1tRCSH6upIpCSH5NM=/600x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/7N6PSLGX75FZXNLDMVRQUXN6QM.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 48em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/kut9ZScucqx58sESf1ZCXk8Re3E=/520x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/7N6PSLGX75FZXNLDMVRQUXN6QM.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 20em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/F6gCHOzC8Smn3b7edXu1C6uEzL8=/375x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/7N6PSLGX75FZXNLDMVRQUXN6QM.jpg",
+          },
+        ],
+        "subtitle": "Gentileza: Les Macarons de Paris",
+        "type": "image",
+        "url": "https://arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/7N6PSLGX75FZXNLDMVRQUXN6QM.jpg",
+      },
+    },
+    "subtype": "7",
+    "taxonomy": Object {
+      "tags": Array [
+        Object {
+          "slug": "manteca-tid47257",
+          "text": "Manteca",
+        },
+        Object {
+          "slug": "azucar-tid47141",
+          "text": "Azúcar",
+        },
+        Object {
+          "slug": "huevo-tid47236",
+          "text": "Huevo",
+        },
+        Object {
+          "slug": "ralladura-de-limon-tid49244",
+          "text": "Ralladura de limón",
+        },
+        Object {
+          "slug": "harina-0000-tid48184",
+          "text": "Harina 0000",
+        },
+        Object {
+          "slug": "polvo-de-hornear-tid47308",
+          "text": "Polvo de hornear",
+        },
+      ],
+    },
+    "website_url": "/recetas/dulces/madeleines-nid04062019-6/",
+  },
+  Object {
+    "_id": "43LCKBHZH5FSRCFF2KL262NNSQ",
+    "display_date": "2019-05-31T16:46:00Z",
+    "headlines": Object {
+      "basic": "\\"Sauce hollandaise\\" o salsa holandesa",
+    },
+    "promo_items": Object {
+      "basic": Object {
+        "resized_urls": Array [
+          Object {
+            "option": Object {
+              "media": "(min-width: 64em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/XirXsZsWldbZA6ynjZzv85yvypk=/600x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/EKT7VYPW25DMVNX4YK3RJQ2NWA.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 48em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/szz-d_poJbrWQtBx9TrfcDV9N-U=/520x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/EKT7VYPW25DMVNX4YK3RJQ2NWA.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 20em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/aLaOdSzpuQnaOJLUKGdFYoN_NWM=/375x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/EKT7VYPW25DMVNX4YK3RJQ2NWA.jpg",
+          },
+        ],
+        "subtitle": "&quot;Sauce hollandaise&quot; o salsa holandesa",
+        "type": "image",
+        "url": "https://arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/EKT7VYPW25DMVNX4YK3RJQ2NWA.jpg",
+      },
+    },
+    "subtype": "7",
+    "taxonomy": Object {
+      "tags": Array [
+        Object {
+          "slug": "yema-tid47350",
+          "text": "Yema",
+        },
+        Object {
+          "slug": "manteca-tid47257",
+          "text": "Manteca",
+        },
+        Object {
+          "slug": "jugo-de-limon-tid49241",
+          "text": "Jugo de limón",
+        },
+      ],
+    },
+    "website_url": "/recetas/guarniciones/sauce-hollandaise-o-salsa-holandesa-nid31052019-6/",
+  },
+  Object {
+    "_id": "2STR43XLZ5FBNGZWEMPSZN67JY",
+    "display_date": "2019-05-31T16:45:00Z",
+    "headlines": Object {
+      "basic": "Omelette",
+    },
+    "promo_items": Object {
+      "basic": Object {
+        "resized_urls": Array [
+          Object {
+            "option": Object {
+              "media": "(min-width: 64em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/8pJ_JL0ZzJELXQk2QGJbLanU0U8=/600x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/JVKJASSLIVB4XLHF3XP25HYZIQ.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 48em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/xFkgLZSBXLXfICAXp_pPteWBh5g=/520x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/JVKJASSLIVB4XLHF3XP25HYZIQ.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 20em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/oxCVBKUCuzI9RbbLieVFxxxmLz4=/375x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/JVKJASSLIVB4XLHF3XP25HYZIQ.jpg",
+          },
+        ],
+        "subtitle": "Omelette",
+        "type": "image",
+        "url": "https://arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/JVKJASSLIVB4XLHF3XP25HYZIQ.jpg",
+      },
+    },
+    "subtype": "7",
+    "taxonomy": Object {
+      "tags": Array [
+        Object {
+          "slug": "huevo-tid47236",
+          "text": "Huevo",
+        },
+        Object {
+          "slug": "ciboulette-tid47189",
+          "text": "Ciboulette",
+        },
+        Object {
+          "slug": "estragon-tid47217",
+          "text": "Estragón",
+        },
+      ],
+    },
+    "website_url": "/recetas/platos-de-comida-principal/omelette-nid31052019-7/",
+  },
+  Object {
+    "_id": "YBKFMGVVDZGZJESVR32ETCIJNU",
+    "display_date": "2019-05-31T16:41:00Z",
+    "headlines": Object {
+      "basic": "“Pain perdu” o Pan perdido",
+    },
+    "promo_items": Object {
+      "basic": Object {
+        "resized_urls": Array [
+          Object {
+            "option": Object {
+              "media": "(min-width: 64em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/kr1YLTRR6grQc2tRYRVIg6G9s0A=/600x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/67PCEAERKBCQFI5GTEIENNCCPM.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 48em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/AYieasi198Tc0eSjrEDJyRpePTo=/520x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/67PCEAERKBCQFI5GTEIENNCCPM.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 20em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/4sIc6NMmpwuTJrs87v_9GSb7ElA=/375x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/67PCEAERKBCQFI5GTEIENNCCPM.jpg",
+          },
+        ],
+        "subtitle": "“Pain perdu” o Pan perdido",
+        "type": "image",
+        "url": "https://arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/67PCEAERKBCQFI5GTEIENNCCPM.jpg",
+      },
+    },
+    "subtype": "7",
+    "taxonomy": Object {
+      "tags": Array [
+        Object {
+          "slug": "pan-tid47282",
+          "text": "Pan",
+        },
+        Object {
+          "slug": "huevo-tid47236",
+          "text": "Huevo",
+        },
+        Object {
+          "slug": "leche-tid47244",
+          "text": "Leche",
+        },
+      ],
+    },
+    "website_url": "/recetas/dulces/pain-perdu-o-pan-perdido-nid31052019-8/",
+  },
+  Object {
+    "_id": "MBDMLDWWJNA7ZJ3R5JK4TSXS2Y",
+    "display_date": "2019-05-06T14:09:00Z",
+    "headlines": Object {
+      "basic": "Arroz con leche \\"Pili\\"",
+    },
+    "promo_items": Object {
+      "basic": Object {
+        "resized_urls": Array [
+          Object {
+            "option": Object {
+              "media": "(min-width: 64em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/dDYPjfKEU2jgquu3T4qa2YpN7CE=/600x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/RZRGGXYNGNCTHMWIUH7NEW34FY.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 48em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/UbXFcb_Pu_WvIOn0qpa0eSxWfP0=/520x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/RZRGGXYNGNCTHMWIUH7NEW34FY.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 20em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/-xmbmEPv-vEh5-yzWpNqYAt9vZE=/375x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/RZRGGXYNGNCTHMWIUH7NEW34FY.jpg",
+          },
+        ],
+        "subtitle": "Arroz con leche &quot;Pili&quot;",
+        "type": "image",
+        "url": "https://arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/RZRGGXYNGNCTHMWIUH7NEW34FY.jpg",
+      },
+    },
+    "subtype": "7",
+    "taxonomy": Object {
+      "tags": Array [
+        Object {
+          "slug": "arroz-tid47136",
+          "text": "Arroz",
+        },
+        Object {
+          "slug": "canela-tid47164",
+          "text": "Canela",
+        },
+        Object {
+          "slug": "vainilla-tid47347",
+          "text": "Vainilla",
+        },
+        Object {
+          "slug": "huevo-tid47236",
+          "text": "Huevo",
+        },
+        Object {
+          "slug": "azucar-tid47141",
+          "text": "Azúcar",
+        },
+        Object {
+          "slug": "leche-tid47244",
+          "text": "Leche",
+        },
+        Object {
+          "slug": "naranja-tid47274",
+          "text": "Naranja",
+        },
+      ],
+    },
+    "website_url": "/recetas/postres/arroz-con-leche-pili-nid06052019-6/",
+  },
+  Object {
+    "_id": "CAIOG3ZE4RDRTNRUPY54YOYURU",
+    "display_date": "2019-05-06T14:08:00Z",
+    "headlines": Object {
+      "basic": "Ensalada \\"Poke\\" de salmón",
+    },
+    "promo_items": Object {
+      "basic": Object {
+        "resized_urls": Array [
+          Object {
+            "option": Object {
+              "media": "(min-width: 64em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/6O1K1WuHUKi1YQibTKbKbe_h5QI=/600x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/EWYMGPT22ZGAFIZ264ONL6V44A.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 48em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/2fIyecuAg3jZxA5Qv4l1ZJeSZ24=/520x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/EWYMGPT22ZGAFIZ264ONL6V44A.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 20em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/K2HGJH-bMptW9zVd1_7lE8I4iAc=/375x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/EWYMGPT22ZGAFIZ264ONL6V44A.jpg",
+          },
+        ],
+        "subtitle": "Gentileza: IZAKAYA – El bar de Sushipop",
+        "type": "image",
+        "url": "https://arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/EWYMGPT22ZGAFIZ264ONL6V44A.jpg",
+      },
+    },
+    "subtype": "7",
+    "taxonomy": Object {
+      "tags": Array [
+        Object {
+          "slug": "pescados-tid67216",
+          "text": "Pescados",
+        },
+        Object {
+          "slug": "salmon-rosado-tid47975",
+          "text": "Salmón rosado",
+        },
+        Object {
+          "slug": "arroz-tid47136",
+          "text": "Arroz",
+        },
+        Object {
+          "slug": "semillas-de-sesamo-tid47338",
+          "text": "Semillas de sésamo",
+        },
+        Object {
+          "slug": "palta-tid47281",
+          "text": "Palta",
+        },
+        Object {
+          "slug": "cebolla-morada-tid47808",
+          "text": "Cebolla morada",
+        },
+        Object {
+          "slug": "queso-tid63996",
+          "text": "Queso",
+        },
+        Object {
+          "slug": "batata-tid47146",
+          "text": "Batata",
+        },
+      ],
+    },
+    "website_url": "/recetas/platos-de-comida-principal/ensalada-poke-de-salmon-nid06052019-6/",
+  },
+  Object {
+    "_id": "HDLCMV46PVC2ZLGWOU4WAZSLEM",
+    "display_date": "2019-05-06T14:07:00Z",
+    "headlines": Object {
+      "basic": "Ensalada tipo \\"Poke\\" de salmón ahumado",
+    },
+    "promo_items": Object {
+      "basic": Object {
+        "resized_urls": Array [
+          Object {
+            "option": Object {
+              "media": "(min-width: 64em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/DZsP5kL9AMFlOKhkvxGMHoVSpZE=/600x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/F6PTWFDX5JCZHJODOIZ6ER47NI.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 48em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/IC-n3S2qG3UqIPbqNb7JVYX_IBM=/520x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/F6PTWFDX5JCZHJODOIZ6ER47NI.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 20em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/WfbCvJ45dsz2Gz_5ScSNvCCVpd8=/375x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/F6PTWFDX5JCZHJODOIZ6ER47NI.jpg",
+          },
+        ],
+        "subtitle": "Gentileza: IZAKAYA – El bar de Sushipop",
+        "type": "image",
+        "url": "https://arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/F6PTWFDX5JCZHJODOIZ6ER47NI.jpg",
+      },
+    },
+    "subtype": "7",
+    "taxonomy": Object {
+      "tags": Array [
+        Object {
+          "slug": "pescados-tid67216",
+          "text": "Pescados",
+        },
+        Object {
+          "slug": "arroz-tid47136",
+          "text": "Arroz",
+        },
+        Object {
+          "slug": "queso-tid63996",
+          "text": "Queso",
+        },
+        Object {
+          "slug": "palta-tid47281",
+          "text": "Palta",
+        },
+        Object {
+          "slug": "semillas-de-sesamo-tid47338",
+          "text": "Semillas de sésamo",
+        },
+        Object {
+          "slug": "cebolla-morada-tid47808",
+          "text": "Cebolla morada",
+        },
+        Object {
+          "slug": "maracuya-tid48762",
+          "text": "Maracuyá",
+        },
+        Object {
+          "slug": "mango-tid47905",
+          "text": "Mango",
+        },
+        Object {
+          "slug": "batata-tid47146",
+          "text": "Batata",
+        },
+      ],
+    },
+    "website_url": "/recetas/platos-de-comida-principal/ensalada-tipo-poke-de-salmon-ahumado-nid06052019-6/",
+  },
+  Object {
+    "_id": "XYJN3XQB2BDP3LIXKLPZZJ7VJI",
+    "display_date": "2019-05-06T14:04:00Z",
+    "headlines": Object {
+      "basic": "Piña colada como en Cuba (con y sin alcohol)",
+    },
+    "promo_items": Object {
+      "basic": Object {
+        "resized_urls": Array [
+          Object {
+            "option": Object {
+              "media": "(min-width: 64em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/HT8LNKSFLlIQToyzFJnji5mfMqc=/600x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/UGP7ZCRPYFFP3MAX7E6GQ6UXCE.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 48em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/RDv3-0TGL3voP5oB0PX82rIfQnI=/520x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/UGP7ZCRPYFFP3MAX7E6GQ6UXCE.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 20em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/lEyotFRlHK865ZKhP2hfxktSPB4=/375x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/UGP7ZCRPYFFP3MAX7E6GQ6UXCE.jpg",
+          },
+        ],
+        "subtitle": "Piña colada con y sin alcohol",
+        "type": "image",
+        "url": "https://arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/UGP7ZCRPYFFP3MAX7E6GQ6UXCE.jpg",
+      },
+    },
+    "subtype": "7",
+    "taxonomy": Object {
+      "tags": Array [
+        Object {
+          "slug": "frutas-tid67217",
+          "text": "Frutas",
+        },
+        Object {
+          "slug": "anana-tid47719",
+          "text": "Ananá",
+        },
+        Object {
+          "slug": "coco-tid47193",
+          "text": "Coco",
+        },
+        Object {
+          "slug": "canela-tid47164",
+          "text": "Canela",
+        },
+        Object {
+          "slug": "miel-tid47266",
+          "text": "Miel",
+        },
+        Object {
+          "slug": "rhum-tid47323",
+          "text": "Rhum",
+        },
+      ],
+    },
+    "website_url": "/recetas/pina-colada-como-en-cuba-con-y-sin-alcohol-nid06052019-6/",
+  },
+  Object {
+    "_id": "TUE7SGPZ3FGEXLX6ZAFUU2DN4A",
+    "display_date": "2019-04-15T17:26:00Z",
+    "headlines": Object {
+      "basic": "Huevo de Pascuas tradicional",
+    },
+    "promo_items": Object {
+      "basic": Object {
+        "resized_urls": Array [
+          Object {
+            "option": Object {
+              "media": "(min-width: 64em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/Ii1Ti48UcnS1rYvP9Rr4roFgBLA=/600x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/TGXRFK75FRFB7FRAAPIUM7ZQTQ.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 48em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/zhUJ-gDPeew0-ZdyeubHy6n7iJM=/520x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/TGXRFK75FRFB7FRAAPIUM7ZQTQ.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 20em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/4LIbMXn9NKYFAOlnye4lWOu6bKY=/375x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/TGXRFK75FRFB7FRAAPIUM7ZQTQ.jpg",
+          },
+        ],
+        "subtitle": "Gentileza: Carat (Belcolade)",
+        "type": "image",
+        "url": "https://arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/TGXRFK75FRFB7FRAAPIUM7ZQTQ.jpg",
+      },
+    },
+    "subtype": "7",
+    "taxonomy": Object {
+      "tags": Array [
+        Object {
+          "slug": "chocolate-blanco-tid47186",
+          "text": "Chocolate blanco",
+        },
+        Object {
+          "slug": "miel-tid47266",
+          "text": "Miel",
+        },
+        Object {
+          "slug": "glucosa-tid47227",
+          "text": "Glucosa",
+        },
+      ],
+    },
+    "website_url": "/recetas/dulces/huevo-de-pascuas-tradicional-nid15042019-6/",
+  },
+  Object {
+    "_id": "ZWPAQKBRPBEVBKCMEKOV2NQNBU",
+    "display_date": "2019-04-15T17:25:00Z",
+    "headlines": Object {
+      "basic": "Huevo de Pascuas Innovador",
+    },
+    "promo_items": Object {
+      "basic": Object {
+        "resized_urls": Array [
+          Object {
+            "option": Object {
+              "media": "(min-width: 64em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/lYSR7QgLzuGt6B6stf1vMdQk8LY=/600x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/VQKTWVLGWNB73CISEGFZNHNAAE.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 48em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/OyjttqCvUacAz5OXUjcwLo8zriU=/520x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/VQKTWVLGWNB73CISEGFZNHNAAE.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 20em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/pK--30ElReVn840Phi3G5SbjUGI=/375x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/VQKTWVLGWNB73CISEGFZNHNAAE.jpg",
+          },
+        ],
+        "subtitle": "Gentileza: Carat (Belcolade)",
+        "type": "image",
+        "url": "https://arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/VQKTWVLGWNB73CISEGFZNHNAAE.jpg",
+      },
+    },
+    "subtype": "7",
+    "taxonomy": Object {
+      "tags": Array [
+        Object {
+          "slug": "chocolate-semiamargo-tid48653",
+          "text": "Chocolate semiamargo",
+        },
+      ],
+    },
+    "website_url": "/recetas/dulces/huevo-de-pascuas-innovador-nid15042019-6/",
+  },
+  Object {
+    "_id": "YB3KCHDMLVDLTO7VXZAUI5SRAM",
+    "display_date": "2019-04-15T17:25:00Z",
+    "headlines": Object {
+      "basic": "Huevo de Pascuas infantil",
+    },
+    "promo_items": Object {
+      "basic": Object {
+        "resized_urls": Array [
+          Object {
+            "option": Object {
+              "media": "(min-width: 64em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/tUFU2nPh-iTnP-sdFEyRbJNCiys=/600x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/IFDTTBOX4NEDLMUYL63C2672YY.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 48em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/pL_UnhYVsZnb-1PC4Sp_M6XIBLE=/520x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/IFDTTBOX4NEDLMUYL63C2672YY.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 20em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/MvuiPG46CxL05ooJItHz1OAwFiQ=/375x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/IFDTTBOX4NEDLMUYL63C2672YY.jpg",
+          },
+        ],
+        "subtitle": "Gentileza: Carat (Belcolade)",
+        "type": "image",
+        "url": "https://arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/IFDTTBOX4NEDLMUYL63C2672YY.jpg",
+      },
+    },
+    "subtype": "7",
+    "taxonomy": Object {
+      "tags": Array [
+        Object {
+          "slug": "chocolate-amargo-tid47185",
+          "text": "Chocolate amargo",
+        },
+        Object {
+          "slug": "chocolate-blanco-tid47186",
+          "text": "Chocolate blanco",
+        },
+      ],
+    },
+    "website_url": "/recetas/dulces/huevo-de-pascuas-infantil-nid15042019-6/",
+  },
+  Object {
+    "_id": "AHRMMNYKCJAG5K6JITLF5YEIW4",
+    "display_date": "2019-02-26T16:03:00Z",
+    "headlines": Object {
+      "basic": "Oeufs au lait o huevos con leche",
+    },
+    "promo_items": Object {
+      "basic": Object {
+        "resized_urls": Array [
+          Object {
+            "option": Object {
+              "media": "(min-width: 64em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/ajFwpfDq0gSVYhqk8BwL0-azQdE=/600x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/BGO7VKEF4RBFHFUE7ZBDI4NNCE.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 48em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/zq7MUGDP5MVH_RIMXO7l2ZOpwrE=/520x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/BGO7VKEF4RBFHFUE7ZBDI4NNCE.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 20em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/eKIY2vuW72fJBzxITm3ugeqjx3Y=/375x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/BGO7VKEF4RBFHFUE7ZBDI4NNCE.jpg",
+          },
+        ],
+        "subtitle": "Oeufs au lait",
+        "type": "image",
+        "url": "https://arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/BGO7VKEF4RBFHFUE7ZBDI4NNCE.jpg",
+      },
+    },
+    "subtype": "7",
+    "taxonomy": Object {
+      "tags": Array [
+        Object {
+          "slug": "leche-tid47244",
+          "text": "Leche",
+        },
+        Object {
+          "slug": "azucar-tid47141",
+          "text": "Azúcar",
+        },
+        Object {
+          "slug": "huevo-tid47236",
+          "text": "Huevo",
+        },
+      ],
+    },
+    "website_url": "/recetas/postres/oeufs-au-lait-o-huevos-con-leche-nid26022019-6/",
+  },
+  Object {
+    "_id": "H7JOJD22YRAXRES6IH4A3EB64A",
+    "display_date": "2019-02-26T09:41:00Z",
+    "headlines": Object {
+      "basic": "Yogur natural casero",
+    },
+    "promo_items": Object {
+      "basic": Object {
+        "resized_urls": Array [
+          Object {
+            "option": Object {
+              "media": "(min-width: 64em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/igoJbvPm2GKMRCeXwos9xet4mK0=/600x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/FMLBUFZQMVFGHARB2B7LULPTQY.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 48em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/1WakyCkMLJ9TPy8AXLjPgNxUhYU=/520x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/FMLBUFZQMVFGHARB2B7LULPTQY.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 20em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/ag_SAJHWY4EpVhy4ycjzgv0nBO0=/375x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/FMLBUFZQMVFGHARB2B7LULPTQY.jpg",
+          },
+        ],
+        "subtitle": "",
+        "type": "image",
+        "url": "https://arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/FMLBUFZQMVFGHARB2B7LULPTQY.jpg",
+      },
+    },
+    "subtype": "7",
+    "taxonomy": Object {
+      "tags": Array [
+        Object {
+          "slug": "recetas-tid60035",
+          "text": "Recetas",
+        },
+      ],
+    },
+    "website_url": "/recetas/yogur-natural-casero-nid26022019-6/",
+  },
+  Object {
+    "_id": "2R3ZAT3JI5FI7MYRBVSQ3ODV3E",
+    "display_date": "2019-02-26T09:40:00Z",
+    "headlines": Object {
+      "basic": "Helado de duraznos y mascarpone",
+    },
+    "promo_items": Object {
+      "basic": Object {
+        "resized_urls": Array [
+          Object {
+            "option": Object {
+              "media": "(min-width: 64em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/woZhCs62nw_qv4ZHOwUaZd9ILY0=/600x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/IBDHXZ6WJ5HHTJ33TB4VURL2TQ.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 48em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/Q6btw18DFEWgRdG4mIIrb5tnByo=/520x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/IBDHXZ6WJ5HHTJ33TB4VURL2TQ.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 20em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/ZULirxud8EpinUNky9NmvNvpm6o=/375x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/IBDHXZ6WJ5HHTJ33TB4VURL2TQ.jpg",
+          },
+        ],
+        "subtitle": "Helado de duraznos y mascarpone",
+        "type": "image",
+        "url": "https://arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/IBDHXZ6WJ5HHTJ33TB4VURL2TQ.jpg",
+      },
+    },
+    "subtype": "7",
+    "taxonomy": Object {
+      "tags": Array [
+        Object {
+          "slug": "frutas-tid67217",
+          "text": "Frutas",
+        },
+        Object {
+          "slug": "quesos-tid67219",
+          "text": "Quesos",
+        },
+        Object {
+          "slug": "durazno-tid47210",
+          "text": "Durazno",
+        },
+        Object {
+          "slug": "azucar-tid47141",
+          "text": "Azúcar",
+        },
+        Object {
+          "slug": "queso-mascarpone-tid48545",
+          "text": "Queso mascarpone",
+        },
+      ],
+    },
+    "website_url": "/recetas/postres/helado-de-duraznos-y-mascarpone-nid26022019-6/",
+  },
+  Object {
+    "_id": "Z2ERT5VPEJCLNCZX7GRCZO5CJE",
+    "display_date": "2019-01-29T16:26:00Z",
+    "headlines": Object {
+      "basic": "Limonada de sandía",
+    },
+    "promo_items": Object {
+      "basic": Object {
+        "resized_urls": Array [
+          Object {
+            "option": Object {
+              "media": "(min-width: 64em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/PlMjTS9TADJkGD-kvZ_3MmERoU8=/600x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/5PC7BCMEUNERHBOPJXLHHJAJBM.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 48em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/sK5pXADK2wS8PXpW0piObQXMrKE=/520x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/5PC7BCMEUNERHBOPJXLHHJAJBM.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 20em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/cMNNgxsZQGFfUT6_hX8oa81X2MM=/375x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/5PC7BCMEUNERHBOPJXLHHJAJBM.jpg",
+          },
+        ],
+        "subtitle": "Limonada de sandía",
+        "type": "image",
+        "url": "https://arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/5PC7BCMEUNERHBOPJXLHHJAJBM.jpg",
+      },
+    },
+    "subtype": "7",
+    "taxonomy": Object {
+      "tags": Array [
+        Object {
+          "slug": "frutas-tid67217",
+          "text": "Frutas",
+        },
+        Object {
+          "slug": "recetas-tid60035",
+          "text": "Recetas",
+        },
+      ],
+    },
+    "website_url": "/recetas/limonada-de-sandia-nid29012019-6/",
+  },
+  Object {
+    "_id": "F2UOUSFDWFBD5IV7MGGJFEF6BE",
+    "display_date": "2019-01-29T16:24:00Z",
+    "headlines": Object {
+      "basic": "Ensalada fría de couscous de coliflor",
+    },
+    "promo_items": Object {
+      "basic": Object {
+        "resized_urls": Array [
+          Object {
+            "option": Object {
+              "media": "(min-width: 64em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/GUl8QjARmoJeroarPjh1_rDgE4M=/600x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/6OJQG2JVEZDWDBLCZF5NHX76VY.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 48em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/6s4TepwixmU7XWZ3MELKBDTtP7A=/520x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/6OJQG2JVEZDWDBLCZF5NHX76VY.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 20em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/g2UPqczxTlDcHlEcRGNRy5FTXMk=/375x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/6OJQG2JVEZDWDBLCZF5NHX76VY.jpg",
+          },
+        ],
+        "subtitle": "Ensalada de couscous de coliflor",
+        "type": "image",
+        "url": "https://arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/6OJQG2JVEZDWDBLCZF5NHX76VY.jpg",
+      },
+    },
+    "subtype": "7",
+    "taxonomy": Object {
+      "tags": Array [
+        Object {
+          "slug": "vegetales-tid67215",
+          "text": "Vegetales",
+        },
+        Object {
+          "slug": "coliflor-tid48542",
+          "text": "Coliflor",
+        },
+        Object {
+          "slug": "tomate-tid47341",
+          "text": "Tomate",
+        },
+        Object {
+          "slug": "pepino-tid47295",
+          "text": "Pepino",
+        },
+        Object {
+          "slug": "cebolla-morada-tid47808",
+          "text": "Cebolla morada",
+        },
+        Object {
+          "slug": "jugo-de-limon-tid49241",
+          "text": "Jugo de limón",
+        },
+        Object {
+          "slug": "aceite-de-oliva-tid47117",
+          "text": "Aceite de oliva",
+        },
+        Object {
+          "slug": "perejil-tid47297",
+          "text": "Perejil",
+        },
+      ],
+    },
+    "website_url": "/recetas/ensaladas/ensalada-fria-de-couscous-de-coliflor-nid29012019-7/",
+  },
+  Object {
+    "_id": "M7EKLRTZEJEXHJCSH4U5XX6LXQ",
+    "display_date": "2019-01-18T09:55:00Z",
+    "headlines": Object {
+      "basic": "Hamburguesa de berenjenas",
+    },
+    "promo_items": Object {
+      "basic": Object {
+        "resized_urls": Array [
+          Object {
+            "option": Object {
+              "media": "(min-width: 64em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/iU016tktRHEmr9rIEkTgcqiWlVo=/600x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/2MUDWD7RKRFRDO5IS7VNZCD4C4.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 48em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/JynadIknDHAWJEEzRWMJA4gDkwg=/520x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/2MUDWD7RKRFRDO5IS7VNZCD4C4.jpg",
+          },
+          Object {
+            "option": Object {
+              "media": "(min-width: 20em)",
+            },
+            "resizedUrl": "http://demo-prod.origin.arcpublishing.com/resizer/yL4zDMxbM0BBhQHymYX7d2U47Ls=/375x0/arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/2MUDWD7RKRFRDO5IS7VNZCD4C4.jpg",
+          },
+        ],
+        "subtitle": "Berenjenas",
+        "type": "image",
+        "url": "https://arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com/public/2MUDWD7RKRFRDO5IS7VNZCD4C4.jpg",
+      },
+    },
+    "subtype": "7",
+    "taxonomy": Object {
+      "tags": Array [
+        Object {
+          "slug": "berenjena-tid47147",
+          "text": "Berenjena",
+        },
+        Object {
+          "slug": "vegetales-tid67215",
+          "text": "Vegetales",
+        },
+        Object {
+          "slug": "harina-0000-tid48184",
+          "text": "Harina 0000",
+        },
+        Object {
+          "slug": "cebolla-tid47174",
+          "text": "Cebolla",
+        },
+        Object {
+          "slug": "morron-rojo-tid47270",
+          "text": "Morrón rojo",
+        },
+        Object {
+          "slug": "ajo-tid47126",
+          "text": "Ajo",
+        },
+        Object {
+          "slug": "huevo-tid47236",
+          "text": "Huevo",
+        },
+        Object {
+          "slug": "perejil-tid47297",
+          "text": "Perejil",
+        },
+      ],
+    },
+    "website_url": "/recetas/platos-de-comida-principal/hamburguesa-de-berenjenas-nid18012019-6/",
+  },
+]
+`;

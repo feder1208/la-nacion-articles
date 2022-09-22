@@ -3,6 +3,7 @@ import { Loading } from "./loading";
 import { Article } from "./article";
 import { Tags } from "./tags";
 import { fetchData } from "../services/fetchData";
+import { filterArticlesBySubtype } from "../utils/filterArticlesBySubtype";
 
 const AccumulatedGrid = () => {
   const [articles, setArticles] = useState([]);
@@ -26,7 +27,8 @@ const AccumulatedGrid = () => {
     );
   }
 
-  const filterArticles = articles.filter((article) => article.subtype === "7");
+  const filterArticles = filterArticlesBySubtype(articles);
+  console.log(articles, filterArticles);
 
   const articlesAccumulated =
     filterArticles.length &&
